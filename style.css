@@ -128,7 +128,7 @@ a {
   }
 
   header .container {
-    padding: 175px;
+    padding: 175px 25px;
   }
 
   .intro {
@@ -141,16 +141,63 @@ h2 {
   margin-bottom: 1rem;
 }
 
+h3 {
+  font-size: 1.77rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
 .card {
   text-align: center;
   padding: 25px;
-  max-width: 310px;
+  width: 310px;
+  height: 310px;
+  margin-bottom: 30px;
+}
+
+.card .image {
+  padding: 0;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.image a {
+  color: white;
+}
+
+.pepiniere {
+  background-image: url(images/pepinieres_d_entreprise.png);
+}
+
+.fablab {
+  background-image: url(images/fablab.png);
+}
+
+.residents {
+  background-image: url(images/residents.png);
+}
+
+.services {
+  background-image: url(images/nos_services.png);
 }
 
 .flex {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
+}
+
+hr {
+  border: 5px solid #472f88;
+  border-radius: 5px;
+  width: 100px;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */
