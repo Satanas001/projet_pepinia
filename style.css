@@ -64,7 +64,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: "Roboto", sans-serif;
   font-weight: 400;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 a {
@@ -73,8 +73,13 @@ a {
 
 .header {
   background-color: #472f88;
-  padding: 25px;
   color: white;
+}
+
+.container {
+  padding: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .header h1 {
@@ -104,23 +109,48 @@ a {
   font-size: 1.1rem;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1023px) {
+@media screen and (min-width: 480px) {
   .intro .btn {
     width: auto;
   }
+
+  .intro div {
+    line-height: 1.4;
+  }
 }
 @media screen and (min-width: 1024px) {
-  .container {
-    margin: 50px 175px;
+  .header h1 {
+    font-size: 4rem;
+  }
+
+  .header img {
+    margin-bottom: 60px;
+  }
+
+  header .container {
+    padding: 175px;
   }
 
   .intro {
     width: 60%;
   }
+}
+h2 {
+  font-size: 1.77rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
 
-  .intro .btn {
-    width: auto;
-  }
+.card {
+  text-align: center;
+  padding: 25px;
+  max-width: 310px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=style.css.map */
