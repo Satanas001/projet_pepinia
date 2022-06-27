@@ -1,0 +1,70 @@
+$purple : #472f88;
+$fontFamily : 'Roboto', sans-serif;
+$fontSize: 18px;
+$regular: 400;
+$medium: 500;
+$thin: 100;
+$bold: 700;
+
+body {
+    font-family: $fontFamily;
+    font-size: $fontFamily;
+    font-weight: $regular;
+    line-height: 1.1    ;
+}
+
+a {
+    color:inherit;
+}
+.header {
+    background-color: $purple;
+    padding:25px;
+
+    color:white;
+}
+
+.header h1 {
+    font-size: 2.77rem;
+    font-weight: $bold;
+}
+
+.header img {
+    margin-bottom: 9px;
+}
+
+.btn {
+    padding: 15px 40px;
+    border-radius: 9px;
+    background-color: white;
+    color:#302465;
+}
+
+.intro div {
+    margin: 30px auto;
+}
+.intro .btn {
+   width:100%;
+   display:inline-block;
+   text-align:center;
+   font-size:1.1rem;
+}
+
+@media screen and (min-width:480px) and (max-width:1023px) {
+    .intro .btn {
+       width:auto;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .container {
+        margin: 50px 175px;
+    }
+    .intro {
+        width:60%;
+    }
+
+    .intro .btn {
+        width:auto;
+     }
+}
+
